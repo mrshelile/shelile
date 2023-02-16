@@ -2,7 +2,6 @@ import './App.css'
 import FooterPage from './componets/Footer'
 import Navigation from './componets/Navitation'
 import Home from './pages/Home/Home'
-import { navs } from './constants/navs';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Services from './pages/Services/Services';
 import Contact from './pages/Contact/Contact';

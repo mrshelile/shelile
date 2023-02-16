@@ -1,5 +1,6 @@
 import { Button } from 'flowbite-react'
 import dev4 from '../../assets/dev4.svg'
+import {Link } from 'react-router-dom';
 export default function Home() {
   return (
     <div>
@@ -15,9 +16,12 @@ export default function Home() {
               that needs  <span className='text-cyan-500'>amazing skills</span>, I'm your guy.
             </div>
             <div>
-              <Button className='uppercase ' outline={true} gradientDuoTone="cyanToBlue" pill={true}
+              <Link to={"/portfolio"}>
+              <Button className='uppercase ' outline={true} gradientDuoTone="cyanToBlue" pill={true} 
+                // onClick={() => 0}
               >My Portfolio
-              </Button>
+                </Button>
+              </Link>
              </div>
           </div>
         </div>
