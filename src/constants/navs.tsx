@@ -11,10 +11,6 @@ export let navs =[
         name: "Home",
         component:Home,
     },
-    {   path:"/about",
-        name: "About",
-        component:About,
-    },
     {
         path:"/resume",
         name: "Resume",
@@ -30,9 +26,13 @@ export let navs =[
         name: "Services",
         component:Services,
     },
-    {
-        path:"/contact",
-        name: 'Contact',
-        component:Contact
-    }
+    {   path:"/about",
+        name: "About",
+        component:About,
+    },
+    // {
+    //     path:"#",
+    //     name: 'Contact',
+    //     component:Contact
+    // }
 ]
