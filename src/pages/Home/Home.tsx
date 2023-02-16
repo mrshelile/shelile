@@ -1,5 +1,5 @@
 import { Button } from 'flowbite-react'
-import dev2 from '../../assets/dev2.svg'
+import dev4 from '../../assets/dev4.svg'
 export default function Home() {
   return (
     <div>
@@ -15,14 +15,14 @@ export default function Home() {
               that needs  <span className='text-cyan-500'>amazing skills</span>, I'm your guy.
             </div>
             <div>
-              <Button className='uppercase' outline={true} gradientDuoTone="cyanToBlue" pill={true}
+              <Button className='uppercase ' outline={true} gradientDuoTone="cyanToBlue" pill={true}
               >My Portfolio
               </Button>
              </div>
           </div>
         </div>
         <div className='col-span-1'>
-          <img src={dev2} width="90%" />
+          <img src={dev4} width="85%" />
         </div>
       </div>
     </div>
