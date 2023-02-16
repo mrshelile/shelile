@@ -1,0 +1,9 @@
+.topDiv{
+    display: block;
+    position: fixed;
+    left: 10%;
+    top:15%;
+    width: 80%;
+    overflow: auto;
+    height: 65%;
+}

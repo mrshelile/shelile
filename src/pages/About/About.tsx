@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import Information from './componets/information'
+import Information from './componets/Information'
 export default function About() {
   return (
    <div >
