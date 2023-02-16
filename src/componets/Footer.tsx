@@ -6,7 +6,7 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 export default function FooterPage() {
   return (
-    <div className='fixed bottom-5 left-0 w-screen h-12'>
+    <div className='fixed bottom-5 left-0 w-screen h-12 '>
       <Footer container={true}>
   <Footer.Copyright
     href="#"
