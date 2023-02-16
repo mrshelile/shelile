@@ -1,0 +1,20 @@
+export let navs =[
+    {
+        name:"Home",
+    },
+    {
+        name:"About"
+    },
+    {
+        name:"Resume",
+    },
+    {
+        name:"Portfolio"
+    },
+    {
+        name:"Services"
+    },
+    {
+        name:'Contact'
+    }
+]
