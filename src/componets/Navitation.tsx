@@ -1,8 +1,9 @@
 import { Navbar } from 'flowbite-react'
+import { Outlet,Link } from 'react-router-dom';
 import logo from '../assets/logo.png'
 import {navs} from '../constants/navs'
 export default function Navigation() {
-  return (
+  return (<>
   <Navbar fluid={true} rounded={true}>
   <Navbar.Brand  to="/">
     <img src={logo} className="mr-3 h-6 sm:h-9"alt="Logo" />
@@ -14,13 +15,13 @@ export default function Navigation() {
       <Navbar.Collapse>
         {navs.map(item => {
           return (
-            <Navbar.Link className='cursor-pointer'>
-              {item.name}
-            </Navbar.Link>
+             <Link to={item.path}>{item.name}</Link>
           );
        })}
    
   </Navbar.Collapse>
-</Navbar>
+    </Navbar>
+     <Outlet />
+    </>
   )
 }

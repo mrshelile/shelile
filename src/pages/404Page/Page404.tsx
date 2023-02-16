@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Contact() {
+export default function Page404() {
   return (
     <div>
-      this is contact page
+      
     </div>
   )
 }
